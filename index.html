@@ -1,3 +1,6 @@
+<?php
+require_once __DIR__ . '/getTranslations.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Miraheze</title>
+        <title><?php echo( getTranslation( 'header-logo-text' ) ); ?></title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -21,7 +24,7 @@
             <div class="container">
                 <a class="navbar-brand" href="#!">
 			<img class="logo" src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Logo" style="height:3em; width:3em; padding:0.5em;">
-			<!--<?php echo getTranslation( 'header-logo-text' ); ?>-->Miraheze
+			<?php echo getTranslation( 'header-logo-text' ); ?>
 		</a>
                 <a class="btn btn-primary" href="https://meta.miraheze.org/wiki/Special:CreateAccount">Sign Up</a>
             </div>
@@ -34,10 +37,10 @@
                         <div class="text-center text-white">
                             <!-- Page heading-->
                             <h1 class="mb-2 text-uppercase">
-					<!--<?php echo getTranslation( 'welcome-text' ); ?>-->Welcome to Miraheze
+					<?php echo getTranslation( 'welcome-text' ); ?>
 				</h1>
                             <h5 class="mb-3 font-weight-light">
-					<!--<?php echo getTranslation( 'description-text' ); ?>-->Miraheze is a not-for-profit, with a mission to provide a free community-centric wiki farm.
+					<?php echo getTranslation( 'description-text' ); ?>
 				</h5>
                         </div>
                         <center><div class="btn-group" role="group">
