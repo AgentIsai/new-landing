@@ -46,11 +46,11 @@ require_once __DIR__ . '/getTranslations.php';
                         <center><div class="btn-group" role="group">
                             <a class="btn btn-xl btn-outline-light" href="https://meta.miraheze.org/wiki/Special:CreateAccount">
                                 <i class="bi bi-box-arrow-in-right"></i>
-                                Sign Up!
+                                <?php echo( getTranslation( 'join-text' ) ); ?>
                             </a>
                             <a class="btn btn-xl btn-outline-light" href="https://donate.miraheze.org">
                                 <i class="bi bi-cash-coin"></i>
-                                Support Us!
+                                <?php echo( getTranslation( 'donate-text' ) ); ?>
                             </a>
                             <div class="btn-group" role="group">
                                 <button id="btnGroupDrop1" type="button" class="btn btn-xl btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,22 +73,22 @@ require_once __DIR__ . '/getTranslations.php';
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                            <h3><?php echo( getTranslation( 'features-mediawiki' ) ); ?></h3>
+                            <p class="lead mb-0"><?php echo( getTranslation( 'features-mediawiki-desc' ) ); ?></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 5 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                            <h3><?php echo( getTranslation( 'features-not-for-profit-text' ) ); ?></h3>
+                            <p class="lead mb-0"><?php echo( getTranslation( 'features-not-for-profit-desc' ) ); ?></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                            <h3><?php echo( getTranslation( 'features-community-text' ) ); ?></h3>
+                            <p class="lead mb-0"><?php echo( getTranslation( 'features-community-desc' ) ); ?></p>
                         </div>
                     </div>
                 </div>
