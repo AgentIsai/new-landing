@@ -126,26 +126,30 @@ require_once __DIR__ . '/getTranslations.php';
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
                         <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
+                            <li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Terms_of_Use"><?php echo( getTranslation( 'footer-terms' ) ); ?></a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
+                            <li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy"><?php echo( getTranslation( 'footer-privacy-policy' ) ); ?></a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                            <li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Meta:General_disclaimer"><?php echo( getTranslation( 'footer-disclaimers' ) ); ?></a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
-                        </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2022. All Rights Reserved.</p>
+                            <li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Privacy_Policy#4._Cookies"><?php echo( getTranslation( 'footer-cookie' ) ); ?></a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center"><?php echo( getTranslation( 'footer-contact' ) ); ?></a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="https://meta.miraheze.org/wiki/Special:MyLanguage/FAQ"><?php echo( getTranslation( 'footer-faq' ) ); ?></a></li>
+			    </ul>
+                        <p class="text-muted small mb-4 mb-lg-0"><?php echo( getTranslation( 'footer-desc' ) ); ?></p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                                <a href="https://www.facebook.com/miraheze/"><i class="bi-facebook fs-3"></i></a>
                             </li>
                             <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                                <a href="https://twitter.com/miraheze"><i class="bi-twitter fs-3"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                                <a href="https://miraheze.org/discord"><i class="bi-instagram fs-3"></i></a>
                             </li>
                         </ul>
                     </div>
